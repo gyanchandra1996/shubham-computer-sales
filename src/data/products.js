@@ -9,13 +9,13 @@ export const products = [
     price: 13999,
     originalPrice: 16499,
     inStock: true,
-    availability: "In Stock - Ready to Dispatch",
+    availability: "In Stock - Ready at Gorath Azamgarh",
     badge: "Bestseller",
     rating: 4.8,
     reviewsCount: 52,
     image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Compact wireless laser printer with crisp black text, Wi-Fi Direct and mobile printing support.",
-    description: "Get productive print performance at an affordable price. Produce high-quality results, and print and scan from your phone with the HP Smart app. Ideal for home and small business users seeking reliable monochrome printing.",
+    description: "Get productive print performance at an affordable price in Azamgarh. Produce high-quality results, and print and scan from your phone with the HP Smart app. Ideal for cyber cafes, CSC centers, schools, and small business users seeking reliable monochrome printing.",
     specs: {
       "Printer Type": "Monochrome Laser Printer",
       "Print Speed": "Up to 20 ppm",
@@ -41,11 +41,11 @@ export const products = [
     price: 14499,
     originalPrice: 17200,
     inStock: true,
-    availability: "In Stock",
+    availability: "In Stock - Gorath Shop",
     badge: "Popular",
     rating: 4.7,
     reviewsCount: 89,
-    image: "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Refillable ink tank multi-function printer with Print, Scan, Copy and high yield per bottle.",
     description: "Designed for high-volume printing at ultra-low operating cost. Canon PIXMA G3010 features transparent integrated ink tanks, wireless connectivity, and borderless photo printing capability up to A4 size.",
     specs: {
@@ -73,11 +73,11 @@ export const products = [
     price: 15499,
     originalPrice: 18999,
     inStock: true,
-    availability: "In Stock - Ready to Dispatch",
+    availability: "In Stock - Same Day Dispatch",
     badge: "Top Choice",
     rating: 4.9,
     reviewsCount: 112,
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=800&q=80",
     shortDescription: "High-yield EcoTank printer with Heat-Free Technology, Wi-Fi Direct and spill-free ink refill.",
     description: "The multi-functional EcoTank L3250 is built to elevate business cost-efficiency and print productivity. Expect high print yield of up to 4,500 pages for black-and-white, and 7,500 pages for colour.",
     specs: {
@@ -136,7 +136,7 @@ export const products = [
     price: 52999,
     originalPrice: 64990,
     inStock: true,
-    availability: "In Stock - Same Day Dispatch",
+    availability: "In Stock - Azamgarh Delivery",
     badge: "Trending",
     rating: 4.8,
     reviewsCount: 76,
@@ -201,7 +201,7 @@ export const products = [
     price: 58990,
     originalPrice: 79990,
     inStock: true,
-    availability: "In Stock - Hot Deal",
+    availability: "In Stock - Special Deal",
     badge: "Gaming Power",
     rating: 4.9,
     reviewsCount: 88,
@@ -235,13 +235,13 @@ export const products = [
     price: 38500,
     originalPrice: 46000,
     inStock: true,
-    availability: "Custom Built - Ready in 24 Hours",
+    availability: "Assembled at Gorath Shop - Ready in 24 Hrs",
     badge: "Custom Rig",
     rating: 4.9,
     reviewsCount: 41,
     image: "https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Fully assembled and stress-tested performance tower with tempered glass cabinet and high airflow.",
-    description: "Engineered by our in-house technicians at Shubham Computer Sales. Assembled with premium components, optimum cable management, and clean genuine Windows installation.",
+    description: "Engineered by our in-house technicians at Shubham Computer Sales, Gorath Azamgarh. Assembled with premium components, optimum cable management, and clean genuine Windows installation.",
     specs: {
       "Processor": "Intel Core i5-12400 (6 Cores, 12 Threads, 4.4 GHz Max Turbo)",
       "Motherboard": "Gigabyte / ASUS H610M Ultra Durable",
@@ -254,7 +254,7 @@ export const products = [
       "100% Genuine brand parts with local warranty support",
       "Pre-loaded with Windows 11 & essential software",
       "Ready for multi-display setups & graphic card upgrades",
-      "Free 1-year in-store hardware diagnostics"
+      "Free 1-year in-store hardware diagnostics at Gorath"
     ],
     featured: true
   },
@@ -334,7 +334,7 @@ export const products = [
     badge: "Best iGPU",
     rating: 4.8,
     reviewsCount: 77,
-    image: "https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=800&q=80",
     shortDescription: "6-core 12-thread unlocked processor with built-in Radeon graphics for smooth budget gaming without GPU.",
     description: "Enjoy serious 1080p esports gaming and effortless 4K media playback without spending extra on a separate graphics card.",
     specs: {
@@ -459,7 +459,7 @@ export const products = [
     badge: "Everyday Essential",
     rating: 4.8,
     reviewsCount: 215,
-    image: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=800&q=80",
     shortDescription: "2-in-1 swivel flash drive with USB Type-C and USB 3.2 Gen 1 Type-A connectors for phone & PC.",
     description: "Seamlessly move files between your USB Type-C smartphone, tablets, and Macs, and USB Type-A computer workstations.",
     specs: {
@@ -521,7 +521,7 @@ export const products = [
     badge: "RGB Gaming",
     rating: 4.6,
     reviewsCount: 84,
-    image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Braided cable aluminum body gaming keyboard with laser-keycaps and 3200 DPI LED gaming mouse.",
     description: "Built for hardcore gaming aesthetics and tactile durability. Rigid aluminum frame with stunning LED breathing lighting effects.",
     specs: {
@@ -538,7 +538,7 @@ export const products = [
     featured: false
   },
 
-  // PRINTER INK & TONER
+  // PRINTER INK & TONER (GENUINE HARDWARE IMAGES - NO MOMOS!)
   {
     id: "hp-88a-laserjet-toner-cartridge",
     name: "HP 88A Original Black LaserJet Toner Cartridge (CC388A)",
@@ -552,9 +552,9 @@ export const products = [
     badge: "Genuine OEM",
     rating: 4.9,
     reviewsCount: 160,
-    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1706895040634-62055892cbbb?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Genuine HP 88A toner producing razor-sharp bold black text with approx. 1,500 pages yield.",
-    description: "Ensure flawless printing reliability and protect your HP LaserJet printer from drum damage with genuine HP 88A toner cartridges. Works with HP P1007, P1008, M1136, M1213nf, M1218nfs and M126nw.",
+    description: "Ensure flawless printing reliability and protect your HP LaserJet printer from drum damage with genuine HP 88A toner cartridges. Works with HP P1007, P1008, M1136, M1213nf, M1218nfs and M126nw. Available for immediate delivery or pickup at Gorath, Azamgarh.",
     specs: {
       "Cartridge Model": "HP 88A (CC388A)",
       "Page Yield": "~1,500 standard pages",
@@ -565,7 +565,8 @@ export const products = [
     features: [
       "Guaranteed smudge-free, fade-resistant black documents",
       "Precision engineered to prevent drum and roller wear",
-      "Hologram security seal verified genuine"
+      "Hologram security seal verified genuine",
+      "Refilling service also available at our Gorath shop"
     ],
     featured: true
   },
@@ -578,11 +579,11 @@ export const products = [
     price: 319,
     originalPrice: 399,
     inStock: true,
-    availability: "In Stock - Ready to Ship",
+    availability: "In Stock - Gorath Ready Stock",
     badge: "Best Seller",
     rating: 5.0,
     reviewsCount: 280,
-    image: "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1706895040634-62055892cbbb?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Authentic Epson 003 Black 65ml refill bottle yielding up to 4,500 crisp black-and-white pages.",
     description: "Engineered specifically for Epson EcoTank L1110, L3110, L3115, L3150, L3152, L3210, L3250 series. Spill-proof design with unique designated nozzle keying.",
     specs: {
@@ -611,7 +612,7 @@ export const products = [
     badge: "High Capacity",
     rating: 4.8,
     reviewsCount: 94,
-    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1706895040634-62055892cbbb?auto=format&fit=crop&w=800&q=80",
     shortDescription: "High-volume 135ml original Canon pigment ink bottle for PIXMA G-Series printers (Up to 6,000 pages).",
     description: "Crisp laser-like text printing for Canon PIXMA G1010, G2010, G3010, G4010 printers. 100% original imported formulation.",
     specs: {
@@ -668,7 +669,7 @@ export const products = [
     price: 1450,
     originalPrice: 2200,
     inStock: true,
-    availability: "In Stock - 1 Year Replacement Warranty",
+    availability: "In Stock - 1 Year Warranty",
     badge: "100% Original",
     rating: 4.9,
     reviewsCount: 135,
@@ -679,7 +680,7 @@ export const products = [
       "Wattage": "65 Watts (19.5V - 3.34A)",
       "Pin Dimensions": "4.5mm Small Pin (Blue ring) or 7.4mm Barrel",
       "Protection": "Over-Voltage, Over-Current, Thermal Shutdown",
-      "Warranty": "1-Year In-Store Replacement"
+      "Warranty": "1-Year In-Store Replacement at Gorath Shop"
     },
     features: [
       "Genuine safety components prevent overheating",
@@ -716,7 +717,7 @@ export const products = [
     featured: false
   },
 
-  // CABLES & CONNECTORS
+  // CABLES & CONNECTORS (REAL CABLE PHOTOS)
   {
     id: "high-speed-4k-braided-hdmi-cable-2m",
     name: "Heavy Duty Braided High Speed 4K 60Hz HDMI 2.0 Cable (2 Meters / Gold Plated)",
@@ -726,11 +727,11 @@ export const products = [
     price: 349,
     originalPrice: 699,
     inStock: true,
-    availability: "In Stock - Immediate Pickup/Delivery",
+    availability: "In Stock - Gorath Ready Pickup",
     badge: "Ultra Durable",
     rating: 4.8,
     reviewsCount: 190,
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1605192020788-24d8eae86e59?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Tangle-free nylon braided 4K UHD HDMI cable supporting 18Gbps bandwidth, HDR and ARC sound.",
     description: "Connect your laptop, desktop, gaming console or set-top box to computer monitors, LED TVs and projectors with zero signal loss.",
     specs: {
@@ -760,7 +761,7 @@ export const products = [
     badge: "Essential",
     rating: 4.7,
     reviewsCount: 75,
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1546124404-9e7e3cac2ec1?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Reliable thick shielded printer cable for HP, Canon, Epson, Brother laser and ink tank printers.",
     description: "High quality foil and braid shielded data cord designed to transmit printing data accurately without communication errors or paper jams.",
     specs: {
@@ -786,12 +787,12 @@ export const products = [
     originalPrice: 1999,
     inStock: true,
     availability: "In Stock",
-    badge: "Work From Home",
+    badge: "Work & Tuition",
     rating: 4.6,
     reviewsCount: 58,
     image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Full HD 1920x1080 resolution camera with auto white balance and universal monitor clip.",
-    description: "Ideal for Zoom, Google Meet, Skype, online tuition classes, and business video conferences.",
+    description: "Ideal for online tuition classes, Zoom, Google Meet, Skype, and business video conferences.",
     specs: {
       "Resolution": "Full HD 1080P @ 30 FPS",
       "Mic": "Integrated noise-canceling condenser microphone",
@@ -847,13 +848,13 @@ export const products = [
     price: 3350,
     originalPrice: 4200,
     inStock: true,
-    availability: "In Stock - Protects Electronics",
+    availability: "In Stock - Voltage Surge Protection",
     badge: "Best Protection",
     rating: 4.8,
     reviewsCount: 110,
     image: "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
     shortDescription: "Battery backup and surge protection with Automatic Voltage Regulation (AVR) for PCs and office equipment.",
-    description: "Guard your valuable desktop computer and internet router against harmful voltage spikes, brownouts, and unexpected power outages. Provides ample time to save files and safely shut down.",
+    description: "Guard your valuable desktop computer and internet router against harmful voltage spikes, brownouts, and unexpected power cuts in Azamgarh. Provides ample time to save files and safely shut down.",
     specs: {
       "Output Capacity": "600VA / 360 Watts",
       "Outlets": "3 Indian Standard 3-Pin Battery + Surge sockets",
@@ -879,13 +880,13 @@ export const products = [
     price: 1399,
     originalPrice: 2200,
     inStock: true,
-    availability: "In Stock - Installation Available",
+    availability: "In Stock - Installation at Azamgarh",
     badge: "High Security",
     rating: 4.7,
     reviewsCount: 49,
     image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
     shortDescription: "1080P Full HD video surveillance camera with 20m infrared night vision and IP66 weatherproofing.",
-    description: "Keep your home, shop, or godown secure 24/7 with CP PLUS high resolution cameras. Features smart IR sensors for crystal clear night footage.",
+    description: "Keep your home, shop, school, or godown secure 24/7 with CP PLUS high resolution cameras. Features smart IR sensors for crystal clear night footage.",
     specs: {
       "Resolution": "1080P Full HD (1920 x 1080)",
       "Lens": "3.6 mm wide angle lens",
@@ -904,45 +905,96 @@ export const products = [
 export const heroStats = [
   { value: "1,500+", label: "Products in Stock" },
   { value: "100%", label: "Genuine Brands" },
-  { value: "10,000+", label: "Satisfied Customers" },
-  { value: "10+ Years", label: "Shop Trust & Experience" }
+  { value: "5,000+", label: "Happy Customers in UP" },
+  { value: "Gorath", label: "Azamgarh Main Market" }
 ];
 
 export const storeBenefits = [
   {
     title: "100% Genuine Products",
-    description: "All our computers, printers, components and accessories come with official brand seals and manufacturer warranties.",
+    description: "All our computers, printers, components and cartridges come with official brand seals and manufacturer warranties.",
     icon: "ShieldCheck",
     color: "from-blue-500 to-indigo-600"
   },
   {
-    title: "Affordable & Fair Prices",
-    description: "Get wholesale-competitive retail prices without middleman markups. Best deals guaranteed across Mumbai & online.",
+    title: "Best Prices in Azamgarh",
+    description: "Get wholesale-competitive retail prices on HP toners, Epson inks, and laptops without extra dealer markups.",
     icon: "BadgePercent",
     color: "from-cyan-500 to-blue-600"
   },
   {
-    title: "Quality & Tested Hardware",
-    description: "Every assembled PC, toner, and accessory is physically inspected and tested by our hardware specialists.",
+    title: "Ready Stock at Gorath",
+    description: "No long waiting times. Walk in to our Gorath shop or get local delivery within hours across Azamgarh district.",
     icon: "Award",
     color: "from-emerald-500 to-teal-600"
   },
   {
-    title: "Friendly Customer Support",
-    description: "Need guidance choosing the right printer or laptop? Speak directly with knowledgeable technicians.",
-    icon: "Headphones",
-    color: "from-indigo-500 to-purple-600"
+    title: "Direct WhatsApp Ordering",
+    description: "Order by sending a message or photo of what you need on 8858352762. Quick price confirmation in 2 minutes.",
+    icon: "MessageSquare",
+    color: "from-green-500 to-emerald-600"
   },
   {
-    title: "Wide Range of Brands",
-    description: "Official reseller & partner for HP, Dell, Lenovo, Canon, Epson, Intel, AMD, Logitech, Zebronics and more.",
+    title: "Full Brand Warranties",
+    description: "Official authorized sales for HP, Dell, Lenovo, Canon, Epson, Intel, AMD, Logitech, Zebronics and more.",
     icon: "Boxes",
     color: "from-sky-500 to-cyan-600"
   },
   {
-    title: "Instant WhatsApp Ordering",
-    description: "No tedious checkout forms. Chat directly on WhatsApp, confirm items, ask questions, and order in seconds.",
-    icon: "MessageSquare",
-    color: "from-green-500 to-emerald-600"
+    title: "Expert Tech Support",
+    description: "Printer troubleshooting, cartridge refilling, and custom PC assembly by experienced in-store technicians.",
+    icon: "Headphones",
+    color: "from-indigo-500 to-purple-600"
+  }
+];
+
+export const storeServices = [
+  {
+    id: "printer-refill",
+    title: "Printer Cartridge Refilling & Drum Repair",
+    desc: "Fast refilling for HP 88A, 12A, 110A, Canon 303 & color toner cartridges using premium microfine powder.",
+    badge: "Same Day Service"
+  },
+  {
+    id: "pc-assembly",
+    title: "Custom PC Tower Assembling",
+    desc: "Gaming rigs, editing workstations, and cyber cafe multi-PC setups built with cable management & stress testing.",
+    badge: "Custom Config"
+  },
+  {
+    id: "laptop-repair",
+    title: "Laptop Screen, Battery & RAM Upgrade",
+    desc: "SSD upgrades, RAM expansion (8GB/16GB), keyboard replacement and thermal paste servicing for all brands.",
+    badge: "1-Hour Service"
+  },
+  {
+    id: "cctv-setup",
+    title: "CCTV Security Camera Installation",
+    desc: "Complete setup for shops, godowns, schools and homes with mobile live viewing and DVR surveillance storage.",
+    badge: "Onsite Setup"
+  }
+];
+
+export const customerReviews = [
+  {
+    name: "Amit Yadav",
+    location: "Azamgarh City",
+    rating: 5,
+    date: "November 2026",
+    comment: "Gorath mein HP LaserJet printer aur 88A original toner liya. Market se kaafi acchi price mili aur WhatsApp pe 5 minute mein order confirm ho gaya. Shubham Computer Sales is the best!"
+  },
+  {
+    name: "Rameshwar Maurya",
+    location: "Gorath Market, Azamgarh",
+    rating: 5,
+    date: "October 2026",
+    comment: "Cyber cafe ke liye 3 desktop PC assemble karwaye. Intel i5 processor aur SSD ke saath speed bahut acchi hai. Honest billing and very polite behaviour."
+  },
+  {
+    name: "Pooja Singh",
+    location: "Mubarakpur, Azamgarh",
+    rating: 5,
+    date: "October 2026",
+    comment: "Dell laptop charger aur wireless mouse order kiya tha. WhatsApp pe message bhejte hi photo bhej kar confirm kiya aur same day deliver ho gaya. Highly recommended!"
   }
 ];

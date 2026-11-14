@@ -25,15 +25,15 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
             <div>
               <h3 className="text-xl font-bold text-white">
-                Looking for a custom computer build or printer toner quote?
+                Looking for a custom computer build or printer toner quote in Azamgarh?
               </h3>
               <p className="text-sm text-slate-400 mt-1">
-                Chat directly with our hardware specialists on WhatsApp for instant pricing & advice.
+                Chat directly with our hardware specialists on WhatsApp for instant stock check & pricing.
               </p>
             </div>
             <WhatsAppButton
               variant="contact"
-              label="Chat with Specialist"
+              label="WhatsApp: 8858352762"
               className="text-sm font-bold px-6 py-3 shrink-0"
             />
           </div>
@@ -54,13 +54,13 @@ export default function Footer() {
                   SHUBHAM
                 </span>
                 <span className="block text-[10px] font-bold text-blue-400 tracking-widest uppercase mt-0.5">
-                  Computer Sales
+                  Computer Sales • Gorath Azamgarh
                 </span>
               </div>
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed pr-4">
-              Shubham Computer Sales is your premier destination for genuine desktop computers, high-performance laptops, laser & ink tank printers, original toners, hardware upgrades, and premium IT accessories at honest prices.
+              Shubham Computer Sales is your premier destination for genuine desktop computers, high-performance laptops, laser & ink tank printers, original toners, hardware upgrades, and premium IT accessories at honest prices in Gorath, Azamgarh (UP).
             </p>
 
             <div className="flex items-center gap-2 pt-2 text-xs text-emerald-400">
@@ -138,7 +138,7 @@ export default function Footer() {
           {/* Col 5: Contact Details */}
           <div className="space-y-4">
             <h4 className="text-white font-bold text-sm tracking-wider uppercase">
-              Store Contact
+              Gorath Store Contact
             </h4>
             <ul className="space-y-3 text-xs text-slate-400">
               <li className="flex items-start gap-2.5">
@@ -147,7 +147,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-electric-400 shrink-0" />
-                <a href={`tel:${SHOP_CONFIG.whatsappNumber}`} className="hover:text-white">
+                <a href={`tel:${SHOP_CONFIG.whatsappNumber}`} className="hover:text-white font-bold text-emerald-400">
                   {SHOP_CONFIG.displayPhone}
                 </a>
               </li>
@@ -171,10 +171,10 @@ export default function Footer() {
         {/* Bottom Bar: Copyright */}
         <div className="mt-12 pt-8 border-t border-navy-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {currentYear} <span className="text-slate-300 font-semibold">{SHOP_CONFIG.name}</span>. All rights reserved.
+            © {currentYear} <span className="text-slate-300 font-semibold">{SHOP_CONFIG.name}</span>. Gorath, Azamgarh (UP). All rights reserved.
           </p>
-          <p className="flex items-center gap-1">
-            Official E-Commerce Showcase & WhatsApp Ordering Portal
+          <p className="flex items-center gap-1 text-slate-400">
+            WhatsApp Orders & Inquiries: <strong className="text-emerald-400">8858352762</strong>
           </p>
         </div>
       </div>

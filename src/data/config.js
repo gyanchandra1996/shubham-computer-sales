@@ -1,19 +1,19 @@
 export const SHOP_CONFIG = {
   name: "Shubham Computer Sales",
   tagline: "Your One-Stop Destination for Computer & Printer Solutions",
-  subheading: "Explore Quality Computers, Printers, Laptops, Accessories and More at the Best Prices.",
-  whatsappNumber: "919876543210", // International format without + or spaces
-  displayWhatsApp: "+91 98765 43210",
-  displayPhone: "+91 98765 43210",
-  alternatePhone: "+91 98123 45678",
+  subheading: "Explore Quality Computers, Printers, Laptops, Accessories and More at the Best Prices in Azamgarh (UP).",
+  whatsappNumber: "918858352762", // International format without + or spaces
+  displayWhatsApp: "+91 88583 52762",
+  displayPhone: "+91 88583 52762",
+  alternatePhone: "+91 88583 52762",
   email: "sales@shubhamcomputersales.com",
-  address: "Shop No. 12, Commercial IT Hub, Station Road, Near Central Plaza, Mumbai, Maharashtra 400001",
-  landmark: "Opposite Metro Station Pillar #42",
-  mapUrl: "https://maps.google.com/?q=Mumbai+Maharashtra+India",
+  address: "Gorath, Azamgarh, Uttar Pradesh (UP), India - 276001",
+  landmark: "Gorath Market, Azamgarh, UP",
+  mapUrl: "https://maps.google.com/?q=Gorath+Azamgarh+Uttar+Pradesh",
   businessHours: {
     weekdays: "Monday – Saturday: 10:00 AM – 8:30 PM",
     sunday: "Sunday: 11:00 AM – 5:00 PM",
-    support: "24/7 WhatsApp Chat Support"
+    support: "24/7 WhatsApp Chat Support: 8858352762"
   }
 };
 
@@ -31,7 +31,7 @@ Product Name: ${product.name}
 Product Price: ${formattedPrice}
 Quantity: ${quantity}
 
-Please share availability and final price.
+Please share availability and final price for delivery in Azamgarh / Gorath UP.
 
 Thank you.`;
 
@@ -53,7 +53,7 @@ export function getCartWhatsAppUrl(cartItems, totalAmount) {
   const totalFormatted = `₹${totalAmount.toLocaleString('en-IN')}`;
   const totalCount = cartItems.reduce((acc, curr) => acc + curr.quantity, 0);
 
-  const message = `Hello Shubham Computer Sales,
+  const message = `Hello Shubham Computer Sales (Gorath, Azamgarh),
 
 I would like to place an order for the following items from my cart:
 
@@ -64,7 +64,7 @@ Total Items Count: ${totalCount}
 Estimated Total Amount: ${totalFormatted}
 ----------------------------------------
 
-Please confirm product availability, shipping/pickup details, and final invoice.
+Please confirm product availability, shipping/pickup details at Gorath Azamgarh, and final invoice.
 
 Thank you!`;
 
@@ -75,9 +75,9 @@ Thank you!`;
  * Quick general inquiry URL
  */
 export function getGeneralWhatsAppUrl(customNote = "") {
-  const message = `Hello Shubham Computer Sales,
+  const message = `Hello Shubham Computer Sales (Gorath, Azamgarh),
   
-I have a general inquiry regarding your computer, printer & electronics products/services.
+I have an inquiry regarding your computer, printer & electronics products/services.
 ${customNote ? `Note: ${customNote}\n` : ''}
 Please assist me. Thank you!`;
 

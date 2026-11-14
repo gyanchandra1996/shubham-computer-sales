@@ -11,7 +11,8 @@ import {
   ChevronDown,
   Monitor,
   Printer,
-  Sparkles
+  Sparkles,
+  MapPin
 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import WhatsAppButton from './WhatsAppButton';
@@ -70,7 +71,7 @@ export default function Navbar() {
     { name: 'Home', path: '/' },
     { name: 'All Products', path: '/products' },
     { name: 'Computers & Laptops', path: '/products?category=laptops' },
-    { name: 'Printers', path: '/products?category=printers' },
+    { name: 'Printers & Toners', path: '/products?category=printers' },
     { name: 'Accessories', path: '/products?category=computer-accessories' },
     { name: 'Contact Us', path: '/contact' }
   ];
@@ -83,21 +84,25 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <a
               href={`tel:${SHOP_CONFIG.whatsappNumber}`}
-              className="flex items-center gap-1.5 hover:text-white transition-colors"
+              className="flex items-center gap-1.5 hover:text-white transition-colors font-medium"
             >
               <Phone className="w-3.5 h-3.5 text-electric-400" />
-              <span>Call Us: {SHOP_CONFIG.displayPhone}</span>
+              <span>Call: {SHOP_CONFIG.displayPhone}</span>
             </a>
             <div className="flex items-center gap-1.5 text-slate-400">
+              <MapPin className="w-3.5 h-3.5 text-electric-400" />
+              <span>Gorath, Azamgarh (UP)</span>
+            </div>
+            <div className="flex items-center gap-1.5 text-slate-400 hidden lg:flex">
               <Clock className="w-3.5 h-3.5 text-electric-400" />
               <span>Mon-Sat: 10:00 AM - 8:30 PM</span>
             </div>
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1.5 text-emerald-400 font-medium">
+            <span className="flex items-center gap-1.5 text-emerald-400 font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Instant WhatsApp Ordering Available</span>
+              <span>WhatsApp Order Active: 8858352762</span>
             </span>
           </div>
         </div>
@@ -115,9 +120,14 @@ export default function Navbar() {
               <span className="block font-black text-xl sm:text-2xl tracking-tight text-navy-950 leading-none">
                 SHUBHAM
               </span>
-              <span className="block text-[11px] font-bold text-electric tracking-widest uppercase mt-0.5">
-                Computer Sales
-              </span>
+              <div className="flex items-center gap-1.5 mt-0.5">
+                <span className="block text-[11px] font-bold text-electric tracking-widest uppercase">
+                  Computer Sales
+                </span>
+                <span className="text-[10px] font-semibold text-slate-400 hidden sm:inline">
+                  • Gorath, Azamgarh
+                </span>
+              </div>
             </div>
           </Link>
 
@@ -126,7 +136,7 @@ export default function Navbar() {
             <form onSubmit={handleSearchSubmit} className="w-full relative">
               <input
                 type="text"
-                placeholder="Search printers, laptops, processors, RAM..."
+                placeholder="Search HP toner 88A, printers, laptops, RAM..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onFocus={() => setIsSearchFocused(true)}
@@ -189,7 +199,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 sm:gap-4">
             {/* Header WhatsApp Button */}
             <div className="hidden lg:block">
-              <WhatsAppButton variant="header" />
+              <WhatsAppButton variant="header" label="WhatsApp: 8858352762" />
             </div>
 
             {/* Shopping Cart Button */}
@@ -245,7 +255,7 @@ export default function Navbar() {
           <form onSubmit={handleSearchSubmit} className="relative">
             <input
               type="text"
-              placeholder="Search products..."
+              placeholder="Search printers, toner, laptops..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-2.5 bg-slate-100 border border-slate-200 rounded-xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-electric"
@@ -273,12 +283,12 @@ export default function Navbar() {
 
           {/* Mobile WhatsApp Button */}
           <div className="pt-2">
-            <WhatsAppButton variant="header" className="w-full justify-center py-3" />
+            <WhatsAppButton variant="header" label="Order on WhatsApp (8858352762)" className="w-full justify-center py-3" />
           </div>
 
-          <div className="pt-2 text-xs text-slate-500 border-t border-slate-100 flex flex-col gap-1">
-            <p>📞 Phone: {SHOP_CONFIG.displayPhone}</p>
-            <p>📍 {SHOP_CONFIG.address}</p>
+          <div className="pt-2 text-xs text-slate-600 border-t border-slate-100 flex flex-col gap-1.5">
+            <p className="font-bold text-navy-900">📞 Phone: {SHOP_CONFIG.displayPhone}</p>
+            <p className="text-slate-500">📍 {SHOP_CONFIG.address}</p>
           </div>
         </div>
       )}

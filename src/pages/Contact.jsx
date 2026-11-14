@@ -10,7 +10,8 @@ import {
   HelpCircle,
   ExternalLink,
   ShieldCheck,
-  Building
+  Building,
+  PhoneCall
 } from 'lucide-react';
 import { SHOP_CONFIG, getGeneralWhatsAppUrl } from '../data/config';
 import WhatsAppButton from '../components/WhatsAppButton';
@@ -37,7 +38,7 @@ export default function Contact() {
       return;
     }
 
-    const compiledMessage = `Hello Shubham Computer Sales,
+    const compiledMessage = `Hello Shubham Computer Sales (Gorath, Azamgarh),
 
 I am contacting you from the website contact form:
 
@@ -46,7 +47,7 @@ Phone: ${formData.phone || 'Not provided'}
 Subject: ${formData.subject}
 Message: ${formData.message}
 
-Please get back to me with details. Thank you!`;
+Please get back to me with details and price. Thank you!`;
 
     const targetUrl = `https://wa.me/${SHOP_CONFIG.whatsappNumber}?text=${encodeURIComponent(compiledMessage)}`;
     showToast('Redirecting to WhatsApp to send your inquiry...', 'success');
@@ -56,23 +57,23 @@ Please get back to me with details. Thank you!`;
   const faqs = [
     {
       q: 'How does WhatsApp ordering work on this website?',
-      a: 'It is simple and instantaneous! Browse products or add multiple items to your cart, then click "Order on WhatsApp" or "Checkout via WhatsApp". A pre-formatted order summary will open in your WhatsApp app or web, allowing you to confirm items, request discounts, and arrange payment & delivery.'
+      a: 'It is simple and instantaneous! Browse products or add multiple items to your cart, then click "Order on WhatsApp" or "Checkout via WhatsApp". A pre-formatted order summary will open in your WhatsApp app or web (8858352762), allowing you to confirm items, request discounts, and arrange payment & delivery in Azamgarh.'
     },
     {
       q: 'Are all laptops, printers, and computer parts genuine?',
       a: 'Yes, 100%. Shubham Computer Sales is an authorized retail partner for HP, Dell, Canon, Epson, Intel, AMD, Logitech and other leading brands. Every product comes in original factory sealed packaging with official manufacturer warranty.'
     },
     {
-      q: 'Do you deliver orders to homes or offices?',
-      a: 'Yes, we provide same-day local courier delivery for orders within the metropolitan area, and express insured courier delivery across India. In-store pickup is also available.'
+      q: 'Do you deliver in Gorath and across Azamgarh district?',
+      a: 'Yes, we provide same-day local delivery across Gorath, Azamgarh city, Bilariyaganj, Mubarakpur, Phoolpur, and nearby UP regions. In-store pickup is also available at our Gorath market showroom.'
     },
     {
       q: 'Can you assemble a custom gaming or editing PC for my budget?',
-      a: 'Absolutely! Our hardware technicians customize desktop configurations according to your specific software requirements (CAD, Premiere, 3D Maya, Blender, Gaming) and budget. Contact us via WhatsApp for a personalized quotation.'
+      a: 'Absolutely! Our hardware technicians in Gorath customize desktop configurations according to your specific software requirements (CAD, Premiere, Photoshop, Tally, Gaming) and budget. Contact us via WhatsApp on 8858352762 for a quick quote.'
     },
     {
-      q: 'What payment methods do you accept?',
-      a: 'We accept UPI (Google Pay, PhonePe, Paytm), Net Banking, RTGS/NEFT for corporate billing, Credit/Debit cards at the store, and Cash on Delivery / Store Pickup.'
+      q: 'What payment methods do you accept at the Gorath shop?',
+      a: 'We accept UPI (Google Pay, PhonePe, Paytm), Net Banking, Credit/Debit cards at the store, and Cash on Delivery / Store Pickup.'
     }
   ];
 
@@ -89,7 +90,7 @@ Please get back to me with details. Thank you!`;
             Contact Shubham Computer Sales
           </h1>
           <p className="text-sm text-slate-500 mt-2">
-            Have questions about printer models, laptop specifications or hardware availability? We are here to help via WhatsApp, phone, or in person at our store.
+            Located at Gorath, Azamgarh (UP). Have questions about printer models, toner cartridges, laptop specifications or stock? We are here to help via WhatsApp, phone, or in person at our store.
           </p>
         </div>
 
@@ -102,7 +103,7 @@ Please get back to me with details. Thank you!`;
                 <MapPin className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-navy-950 mb-1">Our Store Address</h3>
-              <p className="text-xs text-slate-500 leading-relaxed">
+              <p className="text-xs text-slate-600 leading-relaxed font-medium">
                 {SHOP_CONFIG.address}
               </p>
               <p className="text-[11px] text-electric font-semibold mt-1">
@@ -126,12 +127,12 @@ Please get back to me with details. Thank you!`;
               <div className="w-10 h-10 rounded-xl bg-blue-50 text-electric flex items-center justify-center mb-4">
                 <Phone className="w-5 h-5" />
               </div>
-              <h3 className="text-base font-bold text-navy-950 mb-1">Phone Numbers</h3>
+              <h3 className="text-base font-bold text-navy-950 mb-1">Direct Call</h3>
               <p className="text-xs text-slate-500 mb-2">
                 Call our sales desk directly for immediate stock check:
               </p>
-              <p className="text-sm font-bold text-navy-900">{SHOP_CONFIG.displayPhone}</p>
-              <p className="text-xs text-slate-500 mt-0.5">Alt: {SHOP_CONFIG.alternatePhone}</p>
+              <p className="text-base font-extrabold text-navy-950">{SHOP_CONFIG.displayPhone}</p>
+              <p className="text-xs text-slate-500 mt-0.5">Gorath, Azamgarh</p>
             </div>
             <a
               href={`tel:${SHOP_CONFIG.whatsappNumber}`}
@@ -152,12 +153,12 @@ Please get back to me with details. Thank you!`;
               <p className="text-xs text-slate-500 mb-2">
                 Quickest way to order, get quotations, and send component photos:
               </p>
-              <p className="text-sm font-bold text-emerald-600">{SHOP_CONFIG.displayWhatsApp}</p>
-              <p className="text-[11px] text-slate-400 mt-0.5">Response within minutes</p>
+              <p className="text-base font-extrabold text-emerald-600">{SHOP_CONFIG.displayWhatsApp}</p>
+              <p className="text-[11px] text-slate-400 mt-0.5">Instant response in minutes</p>
             </div>
             <WhatsAppButton
               variant="contact"
-              label="Open Chat Now"
+              label="Chat on 8858352762"
               className="mt-4 py-2 px-3 text-xs font-bold"
             />
           </div>
@@ -177,7 +178,7 @@ Please get back to me with details. Thank you!`;
                   <strong className="text-navy-900">Sunday:</strong> 11:00 AM – 5:00 PM
                 </p>
                 <p className="text-[11px] text-emerald-600 font-semibold pt-1">
-                  WhatsApp Support Active 7 Days
+                  WhatsApp Orders 24/7
                 </p>
               </div>
             </div>
@@ -194,7 +195,7 @@ Please get back to me with details. Thank you!`;
                 Send an Inquiry or Quote Request
               </h2>
               <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                Fill this quick form and send directly to our WhatsApp support team with one click.
+                Fill this quick form to send directly to our WhatsApp support team (8858352762) with one click.
               </p>
             </div>
 
@@ -244,8 +245,8 @@ Please get back to me with details. Thank you!`;
                   <option value="Printer & Toner Cartridge Requirement">Printer & Toner Cartridge Requirement</option>
                   <option value="Laptop or Desktop PC Quotation">Laptop or Desktop PC Quotation</option>
                   <option value="Custom PC Build Consultation">Custom PC Build Consultation</option>
-                  <option value="Bulk Order for Office / School / Institute">Bulk Order for Office / School / Institute</option>
-                  <option value="Service, Upgrade & Warranty Support">Service, Upgrade & Warranty Support</option>
+                  <option value="Bulk Order for Office / School / Cyber Cafe">Bulk Order for Office / School / Cyber Cafe</option>
+                  <option value="Cartridge Refilling & Laptop Repair">Cartridge Refilling & Laptop Repair</option>
                 </select>
               </div>
 
@@ -259,7 +260,7 @@ Please get back to me with details. Thank you!`;
                   rows="4"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder="Please specify printer model, laptop specs, RAM capacity, or question..."
+                  placeholder="Please specify printer model (e.g. HP 108w or 88A toner), laptop specs, RAM capacity, or question..."
                   className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-electric focus:bg-white resize-none"
                 ></textarea>
               </div>
@@ -269,25 +270,25 @@ Please get back to me with details. Thank you!`;
                 className="w-full flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-dark text-white font-bold py-3.5 px-6 rounded-xl shadow-md transition-all active:scale-[0.99] text-sm"
               >
                 <MessageSquare className="w-4 h-4 fill-current" />
-                <span>Send Inquiry via WhatsApp</span>
+                <span>Send to WhatsApp (8858352762)</span>
               </button>
 
               <p className="text-[11px] text-slate-400 text-center">
-                Clicking above opens WhatsApp with your pre-filled inquiry. No signup required.
+                Clicking opens WhatsApp with your pre-filled message directly to Shubham Computer Sales.
               </p>
             </form>
           </div>
 
-          {/* Right: Map & Storefront Graphic Card */}
+          {/* Right: Gorath Azamgarh Location Card */}
           <div className="lg:col-span-5 flex flex-col justify-between bg-navy-950 text-white p-6 sm:p-8 rounded-3xl border border-navy-800 shadow-md">
             <div>
               <div className="inline-flex items-center gap-2 text-blue-400 font-bold text-xs uppercase tracking-wider mb-2">
                 <MapPin className="w-4 h-4" />
-                <span>Physical Storefront</span>
+                <span>Gorath, Azamgarh (UP)</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Convenient Location & Easy Parking</h3>
+              <h3 className="text-xl font-bold mb-3">Visit Shubham Computer Sales</h3>
               <p className="text-xs text-slate-300 leading-relaxed mb-6">
-                Located right in the commercial IT hardware market. Walk in to test laptops, inspect printer printouts, or collect pre-assembled PC towers.
+                Located in Gorath Market, Azamgarh. Walk in to test laptops, inspect printer printouts, purchase original cartridges, or pick up customized PC setups.
               </p>
 
               {/* Map Preview Graphic */}
@@ -301,8 +302,9 @@ Please get back to me with details. Thank you!`;
                   <div className="w-12 h-12 rounded-full bg-electric text-white flex items-center justify-center shadow-lg mb-2">
                     <MapPin className="w-6 h-6 animate-bounce" />
                   </div>
-                  <p className="text-xs font-bold text-white">Shubham Computer Sales</p>
-                  <p className="text-[11px] text-slate-300">Station Road, IT Hub, Mumbai</p>
+                  <p className="text-sm font-bold text-white">Shubham Computer Sales</p>
+                  <p className="text-xs text-emerald-400 font-bold">Gorath, Azamgarh (UP)</p>
+                  <p className="text-[11px] text-slate-300">Call/WhatsApp: 8858352762</p>
                 </div>
               </div>
             </div>
@@ -313,7 +315,7 @@ Please get back to me with details. Thank you!`;
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center gap-2 bg-electric hover:bg-electric-600 text-white font-bold py-3 px-4 rounded-xl text-xs transition-colors"
             >
-              <span>Get Directions on Google Maps</span>
+              <span>Get Directions to Gorath on Google Maps</span>
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>
@@ -330,7 +332,7 @@ Please get back to me with details. Thank you!`;
               Frequently Asked Questions
             </h2>
             <p className="text-xs text-slate-500 mt-1">
-              Everything you need to know about ordering and hardware guarantees.
+              Everything you need to know about ordering and hardware services in Gorath, Azamgarh.
             </p>
           </div>
 
